@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820989699597",
+    "project_id": "cilean-app",
+    "storage_bucket": "cilean-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820989699597:android:a7831db07c953d13b75744",
+        "android_client_info": {
+          "package_name": "com.example.cilean"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHnvdat7AE_q7vawHuUmBs9Bf1JqlqVIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
