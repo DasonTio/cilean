@@ -285,7 +285,11 @@ class _LoginContentLayoutState extends State<LoginContentLayout> {
                         width: SizeConfig.blockWidth * 42.5,
                         child: ElevatedButton(
                           onPressed: () {
-                            context.read<AuthBloc>().add(SignInWithGoogle());
+                            // TODO: fix Sign In With Google
+                            // context.read<AuthBloc>().add(SignInWithGoogle());
+
+                            // Dummy
+                            Navigator.of(context).pushReplacementNamed('/');
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.lightGreen,
@@ -313,6 +317,9 @@ class _LoginContentLayoutState extends State<LoginContentLayout> {
                         child: ElevatedButton(
                           onPressed: () {
                             // TODO: Sign In Event
+
+                            // Dummy
+                            Navigator.of(context).pushReplacementNamed('/');
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor:

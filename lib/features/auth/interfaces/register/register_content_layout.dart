@@ -306,6 +306,9 @@ class _RegisterContentLayoutState extends State<RegisterContentLayout> {
                         child: ElevatedButton(
                           onPressed: () {
                             // TODO: Sign In Event
+                            
+                            // Dummy
+                            Navigator.of(context).pushReplacementNamed('/');
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.lightGreen,
@@ -333,6 +336,9 @@ class _RegisterContentLayoutState extends State<RegisterContentLayout> {
                         child: ElevatedButton(
                           onPressed: () {
                             // TODO: Sign In Event
+
+                            // Dummy
+                            Navigator.of(context).pushReplacementNamed('/');
                           },
                           style: ElevatedButton.styleFrom(
                             backgroundColor:
